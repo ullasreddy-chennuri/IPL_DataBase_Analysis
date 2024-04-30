@@ -1,4 +1,5 @@
 **Project Setup Instructions**
+
 This project consists of two main components: the Frontend and the Backend. Here are the instructions to set up and run each component:
 
 **Frontend**
