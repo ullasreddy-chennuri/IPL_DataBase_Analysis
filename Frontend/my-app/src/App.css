@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 0px;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  padding: 40px;
+  background-color: #185672;
+}
+
+/* Form */
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #185672;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #124354;
+}
+
+/* Player Data Container */
+.player-data-container {
+  max-width: 60%;
+  margin: 30px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 2px 9px 9px rgba(0, 0, 0, 0.1);
+}
+
+.player-data-container h2 {
+  color: #185672;
+  margin-top: 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.player-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+}
+
+.detail-block {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-block h3 {
+  color: #185672;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.detail-block p {
+  color: #666;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Drop{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
